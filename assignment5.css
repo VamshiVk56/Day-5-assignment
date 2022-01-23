@@ -1,0 +1,29 @@
+body{
+ margin:0;
+}
+
+.navbar{
+    background-color: rgb(75, 68, 70);
+    display:flex;
+    justify-content:space-around;
+}
+navbar #navlogo{
+     width: 100px;
+     padding: 5px;
+
+} 
+.navbar ul{
+    list-style-type: none;
+    
+}
+.navbar li{
+   display: inline-block;
+}
+.navbar ul li a{
+    padding:10px;
+    color: rgb(17, 240, 73);
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color:cyan;
+}
